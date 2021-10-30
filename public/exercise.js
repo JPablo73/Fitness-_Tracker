@@ -17,6 +17,7 @@ const newWorkout = document.querySelector(".new-workout");
 let workoutType = null;
 let shouldNavigateAway = false;
 
+// starts exercise
 async function initExercise() {
   let workout;
 
@@ -31,6 +32,7 @@ async function initExercise() {
 
 initExercise();
 
+// handle workout type change
 function handleWorkoutTypeChange(event) {
   workoutType = event.target.value;
 
@@ -48,6 +50,7 @@ function handleWorkoutTypeChange(event) {
   validateInputs();
 }
 
+//Validates input fields
 function validateInputs() {
   let isValid = true;
 
@@ -94,6 +97,7 @@ function validateInputs() {
   }
 }
 
+// handles form submission of exercise
 async function handleFormSubmit(event) {
   event.preventDefault();
 
@@ -125,6 +129,7 @@ function handleToastAnimationEnd() {
   }
 }
 
+// Clear input fields
 function clearInputs() {
   cardioNameInput.value = "";
   nameInput.value = "";
