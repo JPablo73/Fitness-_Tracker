@@ -2,7 +2,7 @@
 const router = require("express").Router();
 
 // Import workout model
-const db = require("../models/exercise");
+const db = require("../models/Workout");
 
 // GET Request for getting all workouts
 router.get("/api/workouts", (req, res) => {
