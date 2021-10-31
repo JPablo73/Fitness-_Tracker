@@ -10,18 +10,14 @@
     "seed": "node seeders/seed.js"
   },
   "author": "Juan Bernal",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JPablo73/Fitness-Tracker/issues"
+  },
+  "homepage": "https://github.com/JPablo73/Fitness-Tracker#readme",
   "dependencies": {
     "express": "^4.16.3",
     "mongoose": "^5.3.16",
     "morgan": "^1.9.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JPablo73/Fitness_Tracker.git"
-  },
-  "bugs": {
-    "url": "https://github.com/JPablo73/Fitness_Tracker/issues"
-  },
-  "homepage": "https://github.com/JPablo73/Fitness_Tracker#readme"
+  }
 }
