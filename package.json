@@ -9,7 +9,7 @@
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
-  "author": "Gauri Khandke",
+  "author": "Juan Bernal",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JPablo73/Fitness-Tracker/issues"

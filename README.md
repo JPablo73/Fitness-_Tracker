@@ -18,8 +18,8 @@ Fitness Tracker app that tracks distance, duration, and exercises, using MongoDB
 
 # Deployed Website:
 
-[Fitness Tracker](https://jpablo73.github.io/Fitness_Tracker/)
-[Fitness Tracker](https://hidden-mountain-41391.herokuapp.com/)
+- [Fitness Tracker](https://jpablo73.github.io/Fitness_Tracker/)
+- [Fitness Tracker](https://hidden-mountain-41391.herokuapp.com/)
 
 # User Story
 
