@@ -18,12 +18,15 @@ app.use(require("./routes/html-routes.js"));
 
 // Mongoose db connection
 mongoose
-  .connect(process.env.MONGODB_URI || "mongodb://localhost/fitnesstracker", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-  })
+  .connect(
+    process.env.MONGODB_URI || "mongodb://localhost:27017/fitnesstracker",
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true,
+      useFindAndModify: false,
+    }
+  )
 
   .then(() => console.log("Connected to Mongodb"))
   .catch((err) => console.log(err));
